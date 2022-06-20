@@ -19,7 +19,8 @@ const dataabout = {
     title: "abit about my self",
     aboutme: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent quis dolor id ligula semper elementum feugiat pretium nulla. Nunc non commodo dolor. Nunc mollis dignissim facilisis. Morbi ut magna ultricies.",
 };
-const worktimeline = [{
+const worktimeline = [
+    {
         jobtitle: "Designer of week",
         where: "YAdfi",
         date: "2020",
@@ -36,7 +37,8 @@ const worktimeline = [{
     },
 ];
 
-const skills = [{
+const skills = [
+    {
         name: "Python",
         value: 90,
     },
@@ -58,7 +60,8 @@ const skills = [{
     },
 ];
 
-const services = [{
+const services = [
+    {
         title: "UI & UX Design",
         description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum sollicitudin.",
     },

@@ -154,45 +154,45 @@ export const Portfolio = () => {
           })}
         </div>
         {/* websites */}
-        <Row className="mb-5 mt-3">
-          <Col lg="8">
-            <h1 className="display-4 mb-4"> Websites </h1>{" "}
-            <hr className="t_border my-4 ml-0 text-left" />
-          </Col>
-        </Row>
-        <div className="mb-5">
-          {dexportfolio.map((data, i) => {
-            return (
-              <div key={i} className="po_item">
-                <img src={data.img} alt="" />
-                <div className="content">
-                  <p>{data.desctiption}</p>
-                  <a href={data.link}>view project</a>
-                </div>
-              </div>
-            );
-          })}
-        </div>
+        // <Row className="mb-5 mt-3">
+        //   <Col lg="8">
+        //     <h1 className="display-4 mb-4"> Websites </h1>{" "}
+        //     <hr className="t_border my-4 ml-0 text-left" />
+        //   </Col>
+        // </Row>
+        // <div className="mb-5">
+        //   {dexportfolio.map((data, i) => {
+        //     return (
+        //       <div key={i} className="po_item">
+        //         <img src={data.img} alt="" />
+        //         <div className="content">
+        //           <p>{data.desctiption}</p>
+        //           <a href={data.link}>view project</a>
+        //         </div>
+        //       </div>
+        //     );
+        //   })}
+        // </div>
         {/* Mobile */}
-        <Row className="mb-5 mt-3">
-          <Col lg="8">
-            <h1 className="display-4 mb-4"> Mobile </h1>{" "}
-            <hr className="t_border my-4 ml-0 text-left" />
-          </Col>
-        </Row>
-        <div className="mb-5">
-          {dexportfolio.map((data, i) => {
-            return (
-              <div key={i} className="po_item">
-                <img src={data.img} alt="" />
-                <div className="content">
-                  <p>{data.desctiption}</p>
-                  <a href={data.link}>view project</a>
-                </div>
-              </div>
-            );
-          })}
-        </div>              
+        // <Row className="mb-5 mt-3">
+        //   <Col lg="8">
+        //     <h1 className="display-4 mb-4"> Mobile </h1>{" "}
+        //     <hr className="t_border my-4 ml-0 text-left" />
+        //   </Col>
+        // </Row>
+        // <div className="mb-5">
+        //   {dexportfolio.map((data, i) => {
+        //     return (
+        //       <div key={i} className="po_item">
+        //         <img src={data.img} alt="" />
+        //         <div className="content">
+        //           <p>{data.desctiption}</p>
+        //           <a href={data.link}>view project</a>
+        //         </div>
+        //       </div>
+        //     );
+        //   })}
+        // </div>              
       </Container>
     </HelmetProvider>
   );

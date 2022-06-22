@@ -101,13 +101,18 @@ export const ContactUs = () => {
               </a>
               <br />
               <br />
-              {contactConfig.hasOwnProperty("YOUR_FONE") ? (
+              {/* {contactConfig.hasOwnProperty("YOUR_FONE") ? (
                 <p>
                   <strong>Phone:</strong> {contactConfig.YOUR_FONE}
                 </p>
               ) : (
                 ""
-              )}
+              )} */}
+              
+              <p>
+                <a href="https://calendly.com/rolandowillis118/30min" target="_blank"><strong>Click here to schedule a meeting</strong></a>               
+              </p>
+             
             </address>
             <p>{contactConfig.description}</p>
           </Col>

@@ -2,7 +2,7 @@ import React from "react";
 import "./style.css";
 import { Helmet, HelmetProvider } from "react-helmet-async";
 import { Container, Row, Col } from "react-bootstrap";
-import { customblockchainportfolio, dexportfolio, marketplaceportfolio, mintingsiteportfolio, cryptowalletportfolio, stakingportfolio, botportfolio, meta } from "../../content_option";
+import { customblockchainportfolio, dexportfolio, marketplaceportfolio, mintingsiteportfolio, cryptowalletportfolio, stakingportfolio, botportfolio, meta, websitesportfolio, mobileportfolio } from "../../content_option";
 
 export const Portfolio = () => {
   return (
@@ -14,7 +14,7 @@ export const Portfolio = () => {
           <meta name="description" content={meta.description} />
         </Helmet>
         {/* custom blockchain */}
-        <Row className="mb-5 mt-3">
+        <Row className="mb-5 mt-3" id="customblockchain">
           <Col lg="8">
             <h1 className="display-4 mb-4"> Blockchain Explorer - Layer1 </h1>{" "}
             <hr className="t_border my-4 ml-0 text-left" />
@@ -34,7 +34,7 @@ export const Portfolio = () => {
           })}
         </div>
         {/* dex portfolio */}
-        <Row className="mb-5 mt-3">
+        <Row className="mb-5 mt-3" id="dex">
           <Col lg="8">
             <h1 className="display-4 mb-4"> DEX </h1>{" "}
             <hr className="t_border my-4 ml-0 text-left" />
@@ -54,7 +54,7 @@ export const Portfolio = () => {
           })}
         </div>
         {/* NFT marketplace portfolio */}
-        <Row className="mb-5 mt-3">
+        <Row className="mb-5 mt-3" id="nftmarketplace">
           <Col lg="8">
             <h1 className="display-4 mb-4"> NFT marketplace </h1>{" "}
             <hr className="t_border my-4 ml-0 text-left" />
@@ -80,7 +80,7 @@ export const Portfolio = () => {
             <hr className="t_border my-4 ml-0 text-left" />
           </Col>
         </Row>
-        <div className="mb-5">
+        <div className="mb-5" id="nftmintingsites">
           {mintingsiteportfolio.map((data, i) => {
             return (
               <div key={i} className="po_item">
@@ -94,7 +94,7 @@ export const Portfolio = () => {
           })}
         </div>
         {/* NFT staking */}
-        <Row className="mb-5 mt-3">
+        <Row className="mb-5 mt-3" id="nftstaking">
           <Col lg="8">
             <h1 className="display-4 mb-4"> NFT staking </h1>{" "}
             <hr className="t_border my-4 ml-0 text-left" />
@@ -114,7 +114,7 @@ export const Portfolio = () => {
           })}
         </div>
         {/* crypto wallet portfolio */}
-        <Row className="mb-5 mt-3">
+        <Row className="mb-5 mt-3" id="cryptowallet">
           <Col lg="8">
             <h1 className="display-4 mb-4"> Crypto Wallet </h1>{" "}
             <hr className="t_border my-4 ml-0 text-left" />
@@ -134,7 +134,7 @@ export const Portfolio = () => {
           })}
         </div>
         {/* Bot */}
-        <Row className="mb-5 mt-3">
+        <Row className="mb-5 mt-3" id="bot">
           <Col lg="8">
             <h1 className="display-4 mb-4"> Bot </h1>{" "}
             <hr className="t_border my-4 ml-0 text-left" />
@@ -154,45 +154,45 @@ export const Portfolio = () => {
           })}
         </div>
         {/* websites */}
-        // <Row className="mb-5 mt-3">
-        //   <Col lg="8">
-        //     <h1 className="display-4 mb-4"> Websites </h1>{" "}
-        //     <hr className="t_border my-4 ml-0 text-left" />
-        //   </Col>
-        // </Row>
-        // <div className="mb-5">
-        //   {dexportfolio.map((data, i) => {
-        //     return (
-        //       <div key={i} className="po_item">
-        //         <img src={data.img} alt="" />
-        //         <div className="content">
-        //           <p>{data.desctiption}</p>
-        //           <a href={data.link}>view project</a>
-        //         </div>
-        //       </div>
-        //     );
-        //   })}
-        // </div>
+        <Row className="mb-5 mt-3" id="websites">
+          <Col lg="8">
+            <h1 className="display-4 mb-4"> Websites </h1>{" "}
+            <hr className="t_border my-4 ml-0 text-left" />
+          </Col>
+        </Row>
+        <div className="mb-5">
+          {websitesportfolio.map((data, i) => {
+            return (
+              <div key={i} className="po_item">
+                <img src={data.img} alt="" />
+                <div className="content">
+                  <p>{data.desctiption}</p>
+                  <a href={data.link}>view project</a>
+                </div>
+              </div>
+            );
+          })}
+        </div>
         {/* Mobile */}
-        // <Row className="mb-5 mt-3">
-        //   <Col lg="8">
-        //     <h1 className="display-4 mb-4"> Mobile </h1>{" "}
-        //     <hr className="t_border my-4 ml-0 text-left" />
-        //   </Col>
-        // </Row>
-        // <div className="mb-5">
-        //   {dexportfolio.map((data, i) => {
-        //     return (
-        //       <div key={i} className="po_item">
-        //         <img src={data.img} alt="" />
-        //         <div className="content">
-        //           <p>{data.desctiption}</p>
-        //           <a href={data.link}>view project</a>
-        //         </div>
-        //       </div>
-        //     );
-        //   })}
-        // </div>              
+        <Row className="mb-5 mt-3" id="mobile">
+          <Col lg="8">
+            <h1 className="display-4 mb-4"> Mobile </h1>{" "}
+            <hr className="t_border my-4 ml-0 text-left" />
+          </Col>
+        </Row>
+        <div className="mb-5">
+          {mobileportfolio.map((data, i) => {
+            return (
+              <div key={i} className="po_item">
+                <img src={data.img} alt="" />
+                <div className="content">
+                  <p>{data.desctiption}</p>
+                  <a href={data.link}>view project</a>
+                </div>
+              </div>
+            );
+          })}
+        </div>              
       </Container>
     </HelmetProvider>
   );

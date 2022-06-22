@@ -16,28 +16,69 @@ const introdata = {
 };
 
 const dataabout = {
-    title: "abit about my self",
-    aboutme: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent quis dolor id ligula semper elementum feugiat pretium nulla. Nunc non commodo dolor. Nunc mollis dignissim facilisis. Morbi ut magna ultricies.",
+    title: "About me",
+    aboutme: "Experienced software developer proficient in many platforms and tools, focused on delivering business value through quality software.",
 };
 const worktimeline = [
     {
-        jobtitle: "Designer of week",
-        where: "YAdfi",
-        date: "2020",
+        jobtitle: "Independent Work",
+        where: "Home",
+        date: "2013-2015",
     },
     {
-        jobtitle: "Designer of week",
-        where: "Jamalya",
-        date: "2019",
+        jobtitle: "Software Engineer",
+        where: "Diceus(Remote Work)",
+        date: "2015-2017",
     },
     {
-        jobtitle: "Designer of week",
-        where: "ALquds",
-        date: "2019",
+        jobtitle: "Full Stack Developer",
+        where: "Apico(Remote Work)",
+        date: "2017-2020",
+    },
+    {
+        jobtitle: "Senior Full Stack Developer",
+        where: "Upwork(Remote Work)",
+        date: "2020-current",
     },
 ];
 
 const skills = [
+    {
+        name: "SCSS",
+        value: 90,
+    },
+    {
+        name: "Tailwind CSS",
+        value: 85,
+    },
+    {
+        name: "React",
+        value: 95,
+    },
+    {
+        name: "Vue.js",
+        value: 90,
+    },
+    {
+        name: "Next.js",
+        value: 85,
+    },
+    {
+        name: "Svelte",
+        value: 75,
+    },
+    {
+        name: "JavaScript",
+        value: 80,
+    },
+    {
+        name: "Go",
+        value: 60,
+    },
+    {
+        name: "Rust",
+        value: 85,
+    },
     {
         name: "Python",
         value: 90,
@@ -47,31 +88,71 @@ const skills = [
         value: 85,
     },
     {
-        name: "Javascript",
+        name: "java",
         value: 80,
     },
     {
-        name: "React",
+        name: "PHP",
+        value: 80,
+    },
+    {
+        name: "Laravel",
+        value: 85,
+    },
+    {
+        name: "Drupal",
         value: 60,
     },
     {
-        name: "Jquery",
+        name: "Symfony",
         value: 85,
+    },
+    {
+        name: "WordPress",
+        value: 70,
+    },
+    {
+        name: "Cs-cart",
+        value: 70,
+    },
+    {
+        name: "Node.js",
+        value: 80,
+    },
+    {
+        name: "Mysql",
+        value: 80,
+    },
+    {
+        name: "PostgreSQL",
+        value: 85,
+    },
+    {
+        name: "GraphQL",
+        value: 70,
     },
 ];
 
 const services = [
     {
-        title: "UI & UX Design",
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum sollicitudin.",
+        title: "Blockchain Architecture & Development",
+        description: "My blockchain and distributed-technology development services ensure full-cycle technical support for your token offering, blockchain network creation for your business, or tokenization of your assets, from conceptual architectural and tokenization design, smart contracts, sidechain deployment and integration with public blockchain to website deployment and infrastructure maintenance for your product.",
+        categories: "Dapp(DEFI, DEX, DAO) | Hyperledgder | Private blockchain | Smart contract | Blockchain game | FinTech Blockchain | NFT marketplace | NFT staking | NFT minting | P2E game",
     },
     {
-        title: "Mobile Apps",
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum sollicitudin.",
+        title: "Web Development",
+        description: "Linking design and technology to create responsive and engaging user interfaces with expert front-end development services. ",
+        categories: "Powering up great ideas with expert back-end development services, latest technologies and reliable architecture.",
     },
     {
-        title: "Wordpress Design",
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum sollicitudin.",
+        title: "Mobile app development using React Native and Flutter",
+        description: "I am experience in managing mobile app development projects makes it an ideal partner for your project. We’ll source the right IT consultants and build your team. Then we’ll ensure you receive a mobile app delivered to your final specifications, enabling you to reach your customers in an engaging way.",
+        categories: "Turn your idea into an innovative mobile application with IdeaSoft mobile app development services.",
+    },
+    {
+        title: "Data Science, AI, ML",
+        description: "I am a seasoned have experience designing, developing, and shipping AR and VR solutions that meet business goals. From Startups to Enterprise and everything in-between, customers are being wowed by these new technologies.",
+        categories: "Provide highly adaptive business solutions, using data science, machine learning, and AI technologies.",
     },
 ];
 
@@ -171,6 +252,72 @@ const botportfolio = [
     },
 ];
 
+const websitesportfolio = [
+    {
+        img: "images/vtutor.png",
+        desctiption: "Tech Stack: React, Gatsby, PostgreSQL, DOcker, tailwind CSS",
+        link: "https://vtutor.com/",
+    },
+    {
+        img: "images/schooltry.png",
+        desctiption: "WordPress: SAAS, School Management Tool",
+        link: "https://www.schooltry.com/",
+    },
+    {
+        img: "images/kesso.png",
+        desctiption: "Vue.js for FE and Laravel for BE",
+        link: "https://kesso.uk/find-a-tutor",
+    },
+    {
+        img: "images/100days.png",
+        desctiption: "Figma to live website: http://www.100days.finance/",
+        link: "https://www.figma.com/file/zNIBGNPsXvLvXcTTR96dRY/100-Days-DeFi-Dashboard?node-id=2%3A2",
+    },
+    {
+        img: "images/trade.png",
+        desctiption: "Angular 9.0",
+        link: "https://www.mytrademartstore.com/",
+    },
+    {
+        img: "images/marrowfine.png",
+        desctiption: "Shopify",
+        link: "https://www.marrowfine.com/",
+    },
+    {
+        img: "images/dhcasters.png",
+        desctiption: "Magento 2",
+        link: "https://dhcasters.com/",
+    },
+    {
+        img: "images/beanieboosaustralia.png",
+        desctiption: "Magento 2",
+        link: "https://www.beanieboosaustralia.com/",
+    },
+    {
+        img: "images/axs.png",
+        desctiption: "Symfony",
+        link: "http://www.axs.com/",
+    },
+];
+
+const mobileportfolio = [
+    {
+        img: "images/Dancontrol.png",
+        desctiption: "Dancontrol",
+        link: "https://apps.apple.com/au/app/dan-control/id1328516631",
+    },
+    {
+        img: "images/Soqqle.png",
+        desctiption: "Soqqle",
+        link: "https://apps.apple.com/us/app/soqqle/id1447969070",
+    },
+    {
+        img: "images/Sportunity.png",
+        desctiption: "Sportunity",
+        link: "https://apps.apple.com/ch/app/sportunity/id1180429589?l=en",
+    },
+];
+
 const contactConfig = {
     YOUR_EMAIL: "rolandowillis118@gmail.com",
     YOUR_FONE: "+86 176 4010 5623",
@@ -182,11 +329,10 @@ const contactConfig = {
 
 const socialprofils = {
     github: "https://github.com/rolandowillis",
-    facebook: "https://facebook.com",
-    linkedin: "https://linkedin.com/in/rolandowillis",
-    twitter: "https://twitter.com/rolandowillis",
-    youtube: "https://youtube.com",
-    twitch: "https://twitch.com",
+    linkedin: "https://www.linkedin.com/in/rolando-willis-7a57b3242/",
+    whatsapp: "https://wa.me/12692311180",
+    discord: "https://discordapp.com/channels/@me/greencode#0270/",
+    telegram: "https://telegram.me/rolandowillis",
 };
 export {
     meta,
@@ -198,6 +344,8 @@ export {
     cryptowalletportfolio,
     stakingportfolio,
     botportfolio,
+    websitesportfolio,
+    mobileportfolio,
     worktimeline,
     skills,
     services,

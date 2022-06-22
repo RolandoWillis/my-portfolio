@@ -89,6 +89,7 @@ export const About = () => {
                 <div className="service_ py-4" key={i}>
                   <h5 className="service__title">{data.title}</h5>
                   <p className="service_desc">{data.description}</p>
+                  <p className="service_desc">{data.categories}</p>
                 </div>
               );
             })}

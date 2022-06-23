@@ -332,7 +332,7 @@ const socialprofils = {
     linkedin: "https://www.linkedin.com/in/rolando-willis-7a57b3242/",
     whatsapp: "https://wa.me/12692311180",
     discord: "https://discordapp.com/channels/@me/greencode#0270/",
-    telegram: "https://t.me/rolandowillis118",
+    telegram: "https://telegram.me/rolandowillis",
 };
 export {
     meta,

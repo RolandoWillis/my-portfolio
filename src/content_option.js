@@ -329,7 +329,7 @@ const contactConfig = {
 
 const socialprofils = {
     github: "https://github.com/rolandowillis",
-    linkedin: "https://www.linkedin.com/in/rolando-willis-7a57b3242/",
+    linkedin: "https://www.linkedin.com/in/rolando-willis-220a38243",
     whatsapp: "https://wa.me/12692311180",
     discord: "https://discordapp.com/channels/@me/greencode#0270/",
     telegram: "https://t.me/anoyos",
